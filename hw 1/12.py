@@ -1,0 +1,10 @@
+x=int(input("Input first number: "))
+y=int(input("Input second number: "))
+z=int(input("Input third number: "))
+a=list()
+a.append(x)
+a.append(y)
+a.append(z)
+a.sort()
+print("The median is",a[1])
+
