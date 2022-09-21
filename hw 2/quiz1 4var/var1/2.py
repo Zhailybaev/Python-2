@@ -1,0 +1,11 @@
+x=int(input())
+a=int(x/10000)
+b=int(x/1000)%10
+c=int(x/100)%10
+d=int((x%100)/10)
+e=x%10
+print(a,end="")
+print(2*b,end="")
+print(c,end="")
+print(2*d,end="")
+print(e,end="")
