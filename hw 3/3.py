@@ -22,6 +22,4 @@ with open("C:\\Users\\Asus\\Desktop\\ghjuf\\python2\\hw\\hw 3\\wordlist.txt",'r'
             if len(pattern2)!=0:
                 print(pattern2)
            
-        #pattern2=re.findall('[A-Z][^A-Z]\w+',l)
-        #if len(pattern2)!=0:
-        #    print(pattern2)
+        
